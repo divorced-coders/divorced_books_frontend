@@ -5,7 +5,7 @@ document.getElementById('cryptoForm').addEventListener('submit', function(e) {
     let tickerSymbol = document.getElementById('tickerSymbol').value;
 
     // Call the Spring Boot API
-    fetch(`http://localhost:8080/api/crypto/market/${tickerSymbol}`)
+    fetch(`http://localhost:8084/api/crypto/market/${tickerSymbol}`)
         .then(response => response.json())
         .then(data => {
             // Render the graph using the data
