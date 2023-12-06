@@ -4,60 +4,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crunch Crypto: Latest Crypto Transactions</title>
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f4f4f4;
-        }
-
-        nav {
-            background-color: navy;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            align-items: center;
-        }
-
-        .brand-name {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        #search-box {
-            font-size: 16px;
-            padding: 5px;
-            margin-left: auto;
-        }
-
-        #nav-links a {
-            color: white;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-
-        #nav-links a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            padding: 20px;
-        }
-
-        .section {
-            margin-bottom: 40px;
-        }
-
-        .section h2 {
-            color: navy;
-        }
-
-        .section p {
-            line-height: 1.6;
-        }
-    </style>
+       body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+nav {
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#207cca 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#search-box {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+}
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+#nav-links a:hover {
+    color: #a8d0e6;
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.section h2 {
+    color: #1e5799;
+    margin-bottom: 15px;
+}
+.section p {
+    text-align: justify;
+}
+.footer {
+    background: #1e5799;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+</style>
 </head>
 <body>
     <nav>
