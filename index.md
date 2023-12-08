@@ -75,7 +75,7 @@ nav {
     <nav>
         <span class="brand-name">CrunchCrypto</span>
         <div id="nav-links">
-            <a href="#cryptocurrencies">Cryptocurrencies</a>
+            <a href="https://divorced-coders.github.io/divorced_books_frontend/graph">Transaction Graphs</a>
             <a href="#about">About</a>
             <a href="#news">News</a>
         </div>
