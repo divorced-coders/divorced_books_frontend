@@ -3,24 +3,82 @@ layout: Post
 Title: Spring
 Authors: Krishiv Akshat Raymond
 --- 
-
-
 <html>
 <head>
     <title>Crypto Transaction Sorting</title>
     <style>
-        /* Styles for table */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #0275d8;
+            text-align: center;
+        }
+
+        label, select, button, p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        select, button {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #0275d8;
+            color: white;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #0356a5;
+        }
+
         table {
             border-collapse: collapse;
             width: 100%;
+            margin-top: 20px;
         }
+
         th, td {
             border: 1px solid #dddddd;
             text-align: left;
             padding: 8px;
         }
+
         th {
             background-color: #f2f2f2;
+        }
+
+        #message {
+            background-color: #dff0d8;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #sortingTime {
+            background-color: #d9edf7;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
         }
     </style>
 </head>
