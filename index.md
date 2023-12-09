@@ -78,25 +78,23 @@ nav {
             <a href="https://divorced-coders.github.io/divorced_books_frontend/graph">Transaction Graphs</a>
             <a href="https://divorced-coders.github.io/divorced_books_frontend/about">About</a>
             <a href="https://divorced-coders.github.io/divorced_books_frontend/news">News</a>
+            <a href="https://divorced-coders.github.io/divorced_books_frontend/spring">Transaction Checker</a>
         </div>
         <input type="text" id="search-box" placeholder="Search ticker...">
     </nav>
-
     <div class="container">
-        <div id="cryptocurrencies" class="section">
-            <h2>Cryptocurrencies</h2>
-            <p>Explore the world of cryptocurrencies. Discover the latest trends, prices, and news about Bitcoin, Ethereum, and more.</p>
-        </div>
-
-        <div id="about" class="section">
-            <h2>About Crunch Crypto</h2>
-            <p>Crunch Crypto is your go-to platform for all things crypto. We provide up-to-date information, analysis, and insights into the dynamic world of digital currencies.</p>
-        </div>
-
-        <div id="news" class="section">
-            <h2>Latest Crypto News</h2>
-            <p>Stay informed with the latest news in the cryptocurrency world. Our news section covers everything from market trends to regulatory changes.</p>
-        </div>
+    <div id="cryptocurrencies" class="section">
+        <h2><a href="https://divorced-coders.github.io/divorced_books_frontend/spring" class="section-link">Cryptocurrencies</a></h2>
+        <p>Explore the world of cryptocurrencies. Discover the latest trends, prices, and news about Bitcoin, Ethereum, and more.</p>
     </div>
+    <div id="about" class="section">
+        <h2><a href="https://divorced-coders.github.io/divorced_books_frontend/about" class="section-link">About Crunch Crypto</a></h2>
+        <p>Crunch Crypto is your go-to platform for all things crypto. We provide up-to-date information, analysis, and insights into the dynamic world of digital currencies.</p>
+    </div>
+    <div id="news" class="section">
+        <h2><a href="https://divorced-coders.github.io/divorced_books_frontend/news" class="section-link">Latest Crypto News</a></h2>
+        <p>Stay informed with the latest news in the cryptocurrency world. Our news section covers everything from market trends to regulatory changes.</p>
+    </div>
+</div>
 </body>
 </html>
