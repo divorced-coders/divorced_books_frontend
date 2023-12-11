@@ -79,6 +79,9 @@ nav {
             <a href="https://divorced-coders.github.io/divorced_books_frontend/about">About</a>
             <a href="https://divorced-coders.github.io/divorced_books_frontend/news">News</a>
             <a href="https://divorced-coders.github.io/divorced_books_frontend/spring">Transaction Checker</a>
+            <a href="https://divorced-coders.github.io/divorced_books_frontend/compare">Transaction Compare</a>
+            <a href="https://divorced-coders.github.io/divorced_books_frontend/explain_fib">Fibonacci Explain</a>
+            <a href="https://divorced-coders.github.io/divorced_books_frontend/explain_sort">Sorting Explain</a>
         </div>
         <input type="text" id="search-box" placeholder="Search ticker...">
     </nav>
