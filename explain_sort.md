@@ -64,3 +64,59 @@ The `SortingAlgorithm` interface defines a common contract for sorting algorithm
 ## Conclusion
 
 The provided code allows for comparing and sorting cryptocurrency transactions using various sorting algorithms, with a focus on measuring and reporting performance metrics such as execution time, comparisons, swaps, and the Big O time complexity. The modular design enables easy extension with additional sorting algorithms.
+
+<style>
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #0275d8;
+            text-align: center;
+        }
+        label, select, button, p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        select, button {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+        }
+        button {
+            cursor: pointer;
+            background-color: #0275d8;
+            color: white;
+            border: none;
+        }
+        button:hover {
+            background-color: #0356a5;
+        }
+        .filler-container {
+            display: flex;
+            justify-content: space-between; /* Updated to space between */
+            align-items: center;
+        }
+        .filler-bar {
+            width: 50px; /* Updated width */
+            background-color: #333;
+            height: 0;
+            margin-bottom: 10px;
+            transition: height 0.3s linear; /* Updated transition property */
+        }
+        .filler-1 {
+            background-color: #FF1000; /* Corrected the color value */
+        }
+</style>
