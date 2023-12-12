@@ -75,13 +75,13 @@ nav {
     <nav>
         <span class="brand-name">CrunchCrypto</span>
         <div id="nav-links">
-            <a href="https://divorced-coders.github.io/divorced_books_frontend/graph">Transaction Graphs</a>
-            <a href="https://divorced-coders.github.io/divorced_books_frontend/about">About</a>
-            <a href="https://divorced-coders.github.io/divorced_books_frontend/news">News</a>
-            <a href="https://divorced-coders.github.io/divorced_books_frontend/spring">Transaction Checker</a>
-            <a href="https://divorced-coders.github.io/divorced_books_frontend/compare">Transaction Compare</a>
-            <a href="https://divorced-coders.github.io/divorced_books_frontend/explain_fib">Fibonacci Explain</a>
-            <a href="https://divorced-coders.github.io/divorced_books_frontend/explain_sort">Sorting Explain</a>
+            <a href="http://127.0.0.1:4000/student/graph">Transaction Graphs</a>
+            <a href="http://127.0.0.1:4000/student/about">About</a>
+            <a href="http://127.0.0.1:4000/student/news">News</a>
+            <a href="http://127.0.0.1:4000/student/spring">Transaction Checker</a>
+            <a href="http://127.0.0.1:4000/student/compare">Transaction Compare</a>
+            <a href="http://127.0.0.1:4000/student/explain_fib">Fibonacci Explain</a>
+            <a href="http://127.0.0.1:4000/student/explain_sort">Sorting Explain</a>
         </div>
         <input type="text" id="search-box" placeholder="Search ticker...">
     </nav>

@@ -2,22 +2,66 @@
 <head>
     <title>Crypto Transaction Sorting</title>
     <style>
-        /* Styles for table */
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            padding: 20px;
-            margin: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
+       body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+nav {
+    background: linear-gradient(135deg, #1e5799 0%,#2989d8 50%,#207cca 100%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#search-box {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+}
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+#nav-links a:hover {
+    color: #a8d0e6;
+    text-decoration: none;
+}
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.section h2 {
+    color: #1e5799;
+    margin-bottom: 15px;
+}
+.section p {
+    text-align: justify;
+}
+.footer {
+    background: #1e5799;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
         h1 {
             color: #0275d8;
             text-align: center;
@@ -67,9 +111,25 @@
             background-color: #4caf50;
             height: 0;
         }
-    </style>
+</style>
 </head>
 <body>
+
+<nav>
+    <span class="brand-name">CrunchCrypto</span>
+    <div id="nav-links">
+        <a href="http://127.0.0.1:4000/student/graph">Transaction Graphs</a>
+        <a href="http://127.0.0.1:4000/student/about">About</a>
+        <a href="http://127.0.0.1:4000/student/news">News</a>
+        <a href="http://127.0.0.1:4000/student/spring">Transaction Checker</a>
+        <a href="http://127.0.0.1:4000/student/compare">Transaction Compare</a>
+        <a href="http://127.0.0.1:4000/student/explain_fib">Fibonacci Explain</a>
+        <a href="http://127.0.0.1:4000/student/explain_sort">Sorting Explain</a>
+    </div>
+    <input type="text" id="search-box" placeholder="Search ticker...">
+    </nav>
+
+<br>
     <h1>Crypto Transaction Sorting by Size</h1>
     <label for="symbolDropdown">Select Symbol:</label>
     <select id="symbolDropdown">
