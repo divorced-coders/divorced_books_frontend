@@ -86,6 +86,8 @@
     <button onclick="sortTransactions('bubble')">Bubble Sort</button>
     <button onclick="sortTransactions('insertion')">Insertion Sort</button>
     <button onclick="sortTransactions('heap')">Heap Sort</button>
+    <button onclick="sortTransactions('selection')">Selection Sort</button>
+    <button onclick="sortTransactions('merge')">Merge Sort</button>
     <p id="message"></p>
     <div id="progress-container">
         <div id="filler-bar"></div>
